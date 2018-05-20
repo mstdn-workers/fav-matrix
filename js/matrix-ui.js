@@ -91,8 +91,6 @@ Vue.component('fm-matrix-ui', {
   template: `
     <div class="card-panel center-align">
       <svg xmlns="http://www.w3.org/2000/svg"
-          :width="width + 2 * margin"
-          :height="height + title_height + 2 * margin"
           :viewBox="vb">
         <foreignObject
         <fm-cell v-for="(c, i) in coords"
